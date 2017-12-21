@@ -12,19 +12,18 @@ calculate leap year
 calculate decimal part
 ## ex6
 ordered and cosecutive numbers
-
 ## ex7
-
+how many digits does a number have
 ## ex8
-
+major, minor, medium number.
 ## ex9
-
+even number
 ## ex10
-
+odd number
 ## ex11
-
+even or odd
 ## ex12
-
+drawing with asterisks
 ## ex13
 
 ## ex14
