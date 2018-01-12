@@ -11,6 +11,10 @@ public class EvenNumbersTest {
 		
 		min = en.readFromKeyboard();
 		max = en.readFromKeyboard();
+		if(max<=min) {
+			System.out.println(String.format("%d is not < %d", min, max));
+			return;
+		}
 		
 		int result = en.checkRange(min, max);
 		

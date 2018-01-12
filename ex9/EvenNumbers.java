@@ -18,7 +18,7 @@ public class EvenNumbers {
 		//ArrayList<Integer> result = new ArrayList<>();
 		int total = 0;
 		
-		for(int counter = min; min <= max; counter++) {
+		for(int counter = min; counter <= max; counter++) {
 			if(this.isEven(counter)) {
 				//result.add(counter);
 				total++;
