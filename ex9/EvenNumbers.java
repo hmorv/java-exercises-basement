@@ -51,8 +51,5 @@ public class EvenNumbers {
 	private boolean isEven(int num) {
 		return num % 2 == 0;
 	}
-	
-	private boolean isOdd(int num) {
-		return num % 2 != 0;
-	}
+
 }
