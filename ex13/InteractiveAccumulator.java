@@ -3,13 +3,15 @@ package ex13;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class InteractiveAccumulator {
 	
 	protected InputStreamReader isr;
 	protected BufferedReader buff;
 	
-	private int serie[] = new int[100];
+	//private int serie[] = new int[100];
+	private ArrayList<Integer> serieList = new ArrayList<Integer>();
 	
 	public InteractiveAccumulator() {
 		this.isr = new InputStreamReader(System.in);
