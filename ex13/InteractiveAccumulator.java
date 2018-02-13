@@ -10,22 +10,25 @@ public class InteractiveAccumulator {
 	protected InputStreamReader isr;
 	protected BufferedReader buff;
 	
-	//private int serie[] = new int[100];
-	private ArrayList<Integer> serieList = new ArrayList<Integer>();
-	
 	public InteractiveAccumulator() {
 		this.isr = new InputStreamReader(System.in);
 		this.buff = new BufferedReader(this.isr);
 	}
 	
-	
-	
+	public int calculateAverage(ArrayList<Integer> serie) {
+		int sum = 0;
+		for(int counter = 0; counter < serie.size(); counter++) {
+			sum += serie.get(counter);
+		}
+		
+		return sum / serie.size();
+	}
 	
 	public int readFromKeyboard() {
 		int value;
 
 		try {
-			System.out.println("Write a number: ");
+			System.out.println("Write a number (negative for exit): ");
 			value = Integer.parseInt(this.buff.readLine());
 			
 		} catch (IOException e) {
