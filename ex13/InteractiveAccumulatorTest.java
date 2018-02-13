@@ -6,6 +6,8 @@ public class InteractiveAccumulatorTest {
 		// TODO Auto-generated method stub
 		
 		InteractiveAccumulator ia = new InteractiveAccumulator();
+		
+		//todo
 
 	}
 
